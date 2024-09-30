@@ -3,7 +3,7 @@
 
 import PackageDescription
 
-let version = "0.0.2"
+let version = "0.0.3"
 
 let package = Package(
     name: "TruvideoSdkVideoUtils",
