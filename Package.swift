@@ -23,42 +23,42 @@ let package = Package(
         .binaryTarget(
             name: "ffmpegkit",
             url: "https://github.com/Truvideo/truvideo-sdk-ios-video-utils/releases/download/\(version)/ffmpegkit.xcframework.zip",
-            checksum: "c46909a8c1d21eac04c31376fdc771f9570e65acb63ececa1fbc510d544d0711"
+            checksum: "1117f3182a6752e629ccd1a80364733c8004860e66bce3bd95b2d1e96fefd0e0"
         ),
         .binaryTarget(
             name: "libavcodec",
             url: "https://github.com/Truvideo/truvideo-sdk-ios-video-utils/releases/download/\(version)/libavcodec.xcframework.zip",
-            checksum: "17e7f49ef66f723f84fa4655f70f15907695cbcf1a7c7cb10d0b040205f32874"
+            checksum: "c6a88f85ed7f96f18f3c0e647a75b00c212233dc63b97a70d2972163228c2220"
         ),
         .binaryTarget(
             name: "libavdevice",
             url: "https://github.com/Truvideo/truvideo-sdk-ios-video-utils/releases/download/\(version)/libavdevice.xcframework.zip",
-            checksum: "3d54f55cbe3d6b9be5d44ba07028e7cf8910e8b5b0d3b50c5fc3672770e0c9d7"
+            checksum: "fb0d90f8c5420763eda194a41359466d6702abc5862ddfc4d4d3360711ce9f4d"
         ),
         .binaryTarget(
             name: "libavfilter",
             url: "https://github.com/Truvideo/truvideo-sdk-ios-video-utils/releases/download/\(version)/libavfilter.xcframework.zip",
-            checksum: "a9ebd1652e57fb5719037bb91197cf3c357ecffa2b28d9f0ba4f37660c30b16a"
+            checksum: "c516971f70fe4d52765f620622dd0a95afe84190a73ed9c2651697f8edb39576"
         ),
         .binaryTarget(
             name: "libavformat",
             url: "https://github.com/Truvideo/truvideo-sdk-ios-video-utils/releases/download/\(version)/libavformat.xcframework.zip",
-            checksum: "5bd2bb4c22275c6afda60ac30dc15e7ce5c6d708c09108cd549a0433c901a7bb"
+            checksum: "b85f0c23190711ec4fec23d0a5a81e065e3fee4098e94bb7075f06a30d19dcb6"
         ),
         .binaryTarget(
             name: "libavutil",
             url: "https://github.com/Truvideo/truvideo-sdk-ios-video-utils/releases/download/\(version)/libavutil.xcframework.zip",
-            checksum: "2bef86cc9797a320423e04af351ab45eff0546a9eba3208fae3aa81bb8a99114"
+            checksum: "de3264113c1271a075803f6fd62a663c98efc8370e12f7fbc7e1c514bfa11a67"
         ),
         .binaryTarget(
             name: "libswresample",
             url: "https://github.com/Truvideo/truvideo-sdk-ios-video-utils/releases/download/\(version)/libswresample.xcframework.zip",
-            checksum: "d81b332982467ec10d1c6fe9c66cb54764ef53fdb0c3072de8a6a7b8a9770cb4"
+            checksum: "429835585f1163cec5c06b92513512e019b44dd2f50e84b136b7ab086fa5f4cb"
         ),
         .binaryTarget(
             name: "libswscale",
             url: "https://github.com/Truvideo/truvideo-sdk-ios-video-utils/releases/download/\(version)/libswscale.xcframework.zip",
-            checksum: "8a7d21ecf1620acf6e806beb6c1cd2f42cf8a1b98cd64ef071287d68f0bdc198"
+            checksum: "fc15fd89c8c4c42cffa2a8fa8d996551d7f9b25c93e36d1f1c589ea6a6268690"
         ),
         .target(
             name: "TruvideoSdkVideoUtilsTarget",
